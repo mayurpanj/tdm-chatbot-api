@@ -17,7 +17,9 @@ http://localhost:8090/chatresponse/how to get production data
 
 Note: "How to get production data" is the path variable. i.e. The query sent by the user
 
-A. The queries and the results are to be provided in src/main/resources/bots/super/aimlif/a-custom-entry-aiml-csv
+A. The queries and the results are to be provided in 
+https://bitbucket.org/kapil_mistry_1/tdm-chatbot-api/src/master/src/main/resources/bots/super/aimlif/a-custom-entry-aiml-csv
+
 B. Once the sheet is updated. restart the server by running TdmChatbotApiApplication.java file again
 
 *************************************************
