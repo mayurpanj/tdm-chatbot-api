@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!--  -->
+<category><pattern>* CREATE PRODUCTION DATA *</pattern>
+<template>No</template>
+</category>
+<category><pattern>* PRE PRODUCTION DATA *</pattern>
+<template>No</template>
+</category>
+<category><pattern>* CONTACT PERSON *</pattern>
+<template>Dlcom**.com</template>
+</category>
+<category><pattern>* REPORT ERROR IN THE PORTAL *</pattern>
+<template>Dlcom**.com</template>
+</category>
+<category><pattern>* ASK FOR ADDITIONAL DATA</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<topic name="">
+<category><pattern>* REPORT CUSTOMER * NOT WORKING *</pattern><that></that>
+<template>Provide a link to create Jira with details</template>
+</category></topic>
+
+<topic name="">
+<category><pattern>* REQUEST * NEW CUSTOMER *</pattern><that></that>
+<template>Provide a link to create Jira with details</template>
+</category></topic>
+
+<topic name="">
+<category><pattern>* ADD MONEY TO ACCOUNT *</pattern><that></that>
+<template>Provide a link to create Jira with details</template>
+</category></topic>
+
+</aiml>

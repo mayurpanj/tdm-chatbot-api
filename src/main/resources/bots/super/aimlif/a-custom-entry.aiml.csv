@@ -1,0 +1,8 @@
+0,* CREATE PRODUCTION DATA,*,*,No,a-custom-entry.aiml
+0,* PRE PRODUCTION DATA,*,*,No,a-custom-entry.aiml
+0,* CONTACT PERSON,*,*,Dlcom**.com,a-custom-entry.aiml
+0,* REPORT ERROR IN THE PORTAL,*,*,Dlcom**.com,a-custom-entry.aiml
+0,* ASK FOR ADDITIONAL DATA,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,* REPORT CUSTOMER NOT WORKING,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,* REQUEST NEW CUSTOMER,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,* ADD MONEY TO ACCOUNT,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
