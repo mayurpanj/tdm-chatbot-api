@@ -11,7 +11,7 @@ Steps to run the application
 
 5. Example to get the chat query result:
 
-http://localhost:8090/chatresponse/how to get production data
+http://localhost:8090/chatresponse/can i get production data
 
 *************************************************
 
@@ -25,6 +25,6 @@ B. Once the sheet is updated. restart the server by running TdmChatbotApiApplica
 *************************************************
 
 Sample request and output:
-http://localhost:8090/chatresponse/how can i get PRE PRODUCTION DATA
+http://localhost:8090/chatresponse/can i get PRE PRODUCTION DATA
 
 output: {"response":"No"}
