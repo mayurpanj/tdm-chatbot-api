@@ -1,34 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 <!--  -->
-<category><pattern>* CREATE PRODUCTION DATA *</pattern>
+<category><pattern>^ CREATE DATA ^ PRODUCTION ^</pattern>
 <template>No</template>
 </category>
-<category><pattern>* PRE PRODUCTION DATA *</pattern>
+<category><pattern>^ CREATE DATA ^ PRE PRODUCTION ^</pattern>
 <template>No</template>
 </category>
-<category><pattern>* CONTACT PERSON *</pattern>
+<category><pattern>^ CONTACT ^ PERSON FOR HELP ^</pattern>
 <template>Dlcom**.com</template>
 </category>
-<category><pattern>* REPORT ERROR IN THE PORTAL *</pattern>
+<category><pattern>^ REPORT ^ ERROR ^ PORTAL ^</pattern>
 <template>Dlcom**.com</template>
 </category>
-<category><pattern>* ASK FOR ADDITIONAL DATA</pattern>
+<category><pattern>^ REPORT ^ CUSTOMER ^ NOT WORKING ^</pattern>
 <template>Provide a link to create Jira with details</template>
 </category>
-<topic name="">
-<category><pattern>* REPORT CUSTOMER * NOT WORKING *</pattern><that></that>
+<category><pattern>^ REQUEST ^ NEW CUSTOMER ^</pattern>
 <template>Provide a link to create Jira with details</template>
-</category></topic>
-
-<topic name="">
-<category><pattern>* REQUEST * NEW CUSTOMER *</pattern><that></that>
+</category>
+<category><pattern>^ GET MORE VOLUME OF DATA ^</pattern>
+<template>Provide a link for search pdf with details</template>
+</category>
+<category><pattern>^ ADD MONEY TO ACCOUNTS ^</pattern>
 <template>Provide a link to create Jira with details</template>
-</category></topic>
-
-<topic name="">
-<category><pattern>* ADD MONEY TO ACCOUNT *</pattern><that></that>
+</category>
+<category><pattern>^ HOW FAST ^ PROVIDE ^ NEW SET OF DATA ^</pattern>
+<template>As per the volumes. For example one customer with trading requires 5 minutes</template>
+</category>
+<category><pattern>^ REPLICATE PRODUCTION DEFECT IN TEST ^</pattern>
 <template>Provide a link to create Jira with details</template>
-</category></topic>
-
+</category>
+<category><pattern>^ ADD EQUITIES TO EXISTING CUSTOMER ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ ADD FUNDS TO ^ EXISTING CUSTOMER ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ ADD ETFS TO ^ EXISTING CUSTOMER ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ CAN YOU ADD BONDS TO ^ EXISTING CUSTOMER ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ ADD EQUITY TRADING AGREEMENT ^ EXISTING CUSTOMER ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ ADD FUND TRADING AGREEMEN TO THE EXISTING CUSTOMER ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ CREATE CUSTOMER WITHOUT AGREEMENTS ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ CREATE CUSTOMER WITH KYC ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ CREATE CUSTOMER WITHOUT KYC ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ CREATE POA CUSTOMER ^</pattern>
+<template>Provide a link for search pdf with details</template>
+</category>
+<category><pattern>^ CREATE A JOINT ACCOUNT CUSTOMER ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ NLP CUSTOMER ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ MONTHLY SAVINGS CUSTOMER ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ BUY/SELL BUTTONS ARE DISABLED ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ ADD ADDITIONAL INFORMATION ^ TO ^ CUSTOMER ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ ADD ASK ACCOUNTS TO ^ CUSTOMER ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ ADD MULTI CURRENCY ACCOUNTS ^ TO ^ CUSTOMER ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ CREATE ^ ESA ACCOUNT ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ CREATE ^ ESA CUSTODY ACCOUNT ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ CREATE ^ DEPA ACCOUNT ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ CREATE ^ NORA ACCOUNT ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ CREATE ^ NORA CHILD SAVINGS ACCOUNT ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ ADD ^ NORA FUNDS  ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ CREATE ^ DEV ENVIRONMENT ^ CUSTOMER ^</pattern>
+<template>Yes</template>
+</category>
+<category><pattern>^ CREATE DEAD CUSTOMER  ^</pattern>
+<template>Yes</template>
+</category>
+<category><pattern>^ ADD ^ BACK DATED TRADES ^ CUSTOMER ^</pattern>
+<template>No</template>
+</category>
+<category><pattern>^ CREATE ^ DPF ACCOUNT ^</pattern>
+<template>Provide a link to create Jira with details</template>
+</category>
+<category><pattern>^ CREATE ^ FINANCIAL PLAN ^ CUSTOMER ^</pattern>
+<template>Provide search link with the details</template>
+</category>
+<category><pattern>^ ADD ^ RISK PROFILES ^ CUSTOMER ^</pattern>
+<template>Yes</template>
+</category>
+<category><pattern>^ MIFID ^ CUSTOMER ^</pattern>
+<template>Yes</template>
+</category>
+<category><pattern>^ ADD SHORT CODES ^ CUSTOMER ^</pattern>
+<template>yes</template>
+</category>
+<category><pattern>^ ADD INSTRUMENTS ^</pattern>
+<template>No</template>
+</category>
+<category><pattern>^ ADD ^ T24 ACCOUNTS ^</pattern>
+<template>Yes</template>
+</category>
+<category><pattern>^ CREATE ^ CUSTOMER ^ IMSR ^</pattern>
+<template>Yes</template>
+</category>
+<category><pattern>^ CREATE ^ CUSTOMER ^ IMSV ^</pattern>
+<template>Yes</template>
+</category>
+<category><pattern>^ ADD ^ NEGATIVE BALANCE ^ ACCOUNT ^</pattern>
+<template>Yes</template>
+</category>
+<category><pattern>HELLO</pattern>
+<template>How can I help you with</template>
+</category>
+<category><pattern>HI</pattern>
+<template>How can I help you with</template>
+</category>
+<category><pattern>HELP</pattern>
+<template>Please enter any keyword for help</template>
+</category>
+<category><pattern>^ REPORT ^ ERROR ^</pattern>
+<template>Dlcom**.com</template>
+</category>
 </aiml>

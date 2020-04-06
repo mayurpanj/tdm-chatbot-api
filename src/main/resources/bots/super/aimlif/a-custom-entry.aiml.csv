@@ -1,8 +1,50 @@
-0,* CREATE PRODUCTION DATA,*,*,No,a-custom-entry.aiml
-0,* PRE PRODUCTION DATA,*,*,No,a-custom-entry.aiml
-0,* CONTACT PERSON,*,*,Dlcom**.com,a-custom-entry.aiml
-0,* REPORT ERROR IN THE PORTAL,*,*,Dlcom**.com,a-custom-entry.aiml
-0,* ASK FOR ADDITIONAL DATA,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,* REPORT CUSTOMER NOT WORKING,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,* REQUEST NEW CUSTOMER,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,* ADD MONEY TO ACCOUNT,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ CREATE DATA ^ PRODUCTION ^,*,*,No,a-custom-entry.aiml
+0,^ CREATE DATA ^ PRE PRODUCTION ^,*,*,No,a-custom-entry.aiml
+0,^ CONTACT ^ PERSON FOR HELP ^,*,*,Dlcom**.com,a-custom-entry.aiml
+0,^ REPORT ^ ERROR ^ PORTAL ^,*,*,Dlcom**.com,a-custom-entry.aiml
+0,^ REPORT ^ CUSTOMER ^ NOT WORKING ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ REQUEST ^ NEW CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ GET MORE VOLUME OF DATA ^,*,*,Provide a link for search pdf with details,a-custom-entry.aiml
+0,^ ADD MONEY TO ACCOUNTS ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ HOW FAST ^ PROVIDE ^ NEW SET OF DATA ^,*,*,As per the volumes. For example one customer with trading requires 5 minutes,a-custom-entry.aiml
+0,^ REPLICATE PRODUCTION DEFECT IN TEST ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ ADD EQUITIES TO EXISTING CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ ADD FUNDS TO ^ EXISTING CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ ADD ETFS TO ^ EXISTING CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ CAN YOU ADD BONDS TO ^ EXISTING CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ ADD EQUITY TRADING AGREEMENT ^ EXISTING CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ ADD FUND TRADING AGREEMEN TO THE EXISTING CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ CREATE CUSTOMER WITHOUT AGREEMENTS ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ CREATE CUSTOMER WITH KYC ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ CREATE CUSTOMER WITHOUT KYC ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ CREATE POA CUSTOMER ^,*,*,Provide a link for search pdf with details,a-custom-entry.aiml
+0,^ CREATE A JOINT ACCOUNT CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ NLP CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ MONTHLY SAVINGS CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ BUY/SELL BUTTONS ARE DISABLED ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ ADD ADDITIONAL INFORMATION ^ TO ^ CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ ADD ASK ACCOUNTS TO ^ CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ ADD MULTI CURRENCY ACCOUNTS ^ TO ^ CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ CREATE ^ ESA ACCOUNT ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ CREATE ^ ESA CUSTODY ACCOUNT ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ CREATE ^ DEPA ACCOUNT ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ CREATE ^ NORA ACCOUNT ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ CREATE ^ NORA CHILD SAVINGS ACCOUNT ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ ADD ^ NORA FUNDS  ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ CREATE ^ DEV ENVIRONMENT ^ CUSTOMER ^,*,*,Yes,a-custom-entry.aiml
+0,^ CREATE DEAD CUSTOMER  ^,*,*,Yes,a-custom-entry.aiml
+0,^ ADD ^ BACK DATED TRADES ^ CUSTOMER ^,*,*,No,a-custom-entry.aiml
+0,^ CREATE ^ DPF ACCOUNT ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
+0,^ CREATE ^ FINANCIAL PLAN ^ CUSTOMER ^,*,*,Provide search link with the details,a-custom-entry.aiml
+0,^ ADD ^ RISK PROFILES ^ CUSTOMER ^,*,*,Yes,a-custom-entry.aiml
+0,^ MIFID ^ CUSTOMER ^,*,*,Yes,a-custom-entry.aiml
+0,^ ADD SHORT CODES ^ CUSTOMER ^,*,*,yes,a-custom-entry.aiml
+0,^ ADD INSTRUMENTS ^,*,*,No,a-custom-entry.aiml
+0,^ ADD ^ T24 ACCOUNTS ^,*,*,Yes,a-custom-entry.aiml
+0,^ CREATE ^ CUSTOMER ^ IMSR ^,*,*,Yes,a-custom-entry.aiml
+0,^ CREATE ^ CUSTOMER ^ IMSV ^,*,*,Yes,a-custom-entry.aiml
+0,^ ADD ^ NEGATIVE BALANCE ^ ACCOUNT ^,*,*,Yes,a-custom-entry.aiml
+0,HELLO,*,*,How can I help you with,a-custom-entry.aiml
+0,HI,*,*,How can I help you with,a-custom-entry.aiml
+0,HELP,*,*,Please enter any keyword for help,a-custom-entry.aiml
+0,^ REPORT ^ ERROR ^,*,*,Dlcom**.com,a-custom-entry.aiml
