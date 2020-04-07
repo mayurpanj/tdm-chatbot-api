@@ -31,6 +31,7 @@ public class UserChatController {
 	private UserChatService userChatService;
 
 	// Example: http://localhost:8090/chatresponse/"how to get production data"
+	@CrossOrigin
 	@RequestMapping("/chatresponse/{query}/**")
 	public QueryResult getQueryResponse(@PathVariable String query, HttpServletRequest request) {
 		final String path = request.getAttribute(HandlerMapping.PATH_WITHIN_HANDLER_MAPPING_ATTRIBUTE).toString();
