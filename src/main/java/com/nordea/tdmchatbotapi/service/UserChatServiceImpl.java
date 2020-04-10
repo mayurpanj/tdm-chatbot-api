@@ -47,7 +47,18 @@ public class UserChatServiceImpl implements UserChatService {
 
 	private QueryResult mapResult(String response) {
 		QueryResult result = new QueryResult();
-		result.setResponse(response);
+		result.setIntermediateQuery(false);
+		if (response.contains("||")) {
+			result.setIntermediateQuery(true);
+			String[] valarray = response.split("\\|\\|");
+			System.out.println("***************"+valarray);
+			for (int i = 0; i< valarray.length; i++) {
+				result.getSubQuestions().add(valarray[i]);
+			}
+			result.setResponse("");
+		} else {
+				result.setResponse(response);
+		}
 		return result;
 	}
 

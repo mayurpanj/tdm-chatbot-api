@@ -2,153 +2,228 @@
 <aiml>
 <!--  -->
 <category><pattern>^ CREATE DATA ^ PRODUCTION ^</pattern>
-<template>No</template>
+<template>No. We create Data for only Test Environments</template>
 </category>
 <category><pattern>^ CREATE DATA ^ PRE PRODUCTION ^</pattern>
-<template>No</template>
+<template>No. We create Data for only Test Environments</template>
 </category>
 <category><pattern>^ CONTACT ^ PERSON FOR HELP ^</pattern>
-<template>Dlcom**.com</template>
+<template>DlcomTDM@Nordea.com</template>
 </category>
 <category><pattern>^ REPORT ^ ERROR ^ PORTAL ^</pattern>
-<template>Dlcom**.com</template>
+<template>DlcomTDM@Nordea.com</template>
 </category>
 <category><pattern>^ REPORT ^ CUSTOMER ^ NOT WORKING ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ REQUEST ^ NEW CUSTOMER ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ GET MORE VOLUME OF DATA ^</pattern>
-<template>Provide a link for search pdf with details</template>
+<template>pdf_link</template>
 </category>
 <category><pattern>^ ADD MONEY TO ACCOUNTS ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ HOW FAST ^ PROVIDE ^ NEW SET OF DATA ^</pattern>
-<template>As per the volumes. For example one customer with trading requires 5 minutes</template>
+<template>As per the volumes. For example to create one customer with trading takes 5 minutes</template>
 </category>
 <category><pattern>^ REPLICATE PRODUCTION DEFECT IN TEST ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ ADD EQUITIES TO EXISTING CUSTOMER ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ ADD FUNDS TO ^ EXISTING CUSTOMER ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ ADD ETFS TO ^ EXISTING CUSTOMER ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ CAN YOU ADD BONDS TO ^ EXISTING CUSTOMER ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ ADD EQUITY TRADING AGREEMENT ^ EXISTING CUSTOMER ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ ADD FUND TRADING AGREEMEN TO THE EXISTING CUSTOMER ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ CREATE CUSTOMER WITHOUT AGREEMENTS ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ CREATE CUSTOMER WITH KYC ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ CREATE CUSTOMER WITHOUT KYC ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ CREATE POA CUSTOMER ^</pattern>
-<template>Provide a link for search pdf with details</template>
+<template>pdf_link</template>
 </category>
 <category><pattern>^ CREATE A JOINT ACCOUNT CUSTOMER ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ NLP CUSTOMER ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ MONTHLY SAVINGS CUSTOMER ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ BUY/SELL BUTTONS ARE DISABLED ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ ADD ADDITIONAL INFORMATION ^ TO ^ CUSTOMER ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ ADD ASK ACCOUNTS TO ^ CUSTOMER ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ ADD MULTI CURRENCY ACCOUNTS ^ TO ^ CUSTOMER ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ CREATE ^ ESA ACCOUNT ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ CREATE ^ ESA CUSTODY ACCOUNT ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ CREATE ^ DEPA ACCOUNT ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ CREATE ^ NORA ACCOUNT ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ CREATE ^ NORA CHILD SAVINGS ACCOUNT ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
-<category><pattern>^ ADD ^ NORA FUNDS  ^</pattern>
-<template>Provide a link to create Jira with details</template>
-</category>
-<category><pattern>^ CREATE ^ DEV ENVIRONMENT ^ CUSTOMER ^</pattern>
-<template>Yes</template>
-</category>
-<category><pattern>^ CREATE DEAD CUSTOMER  ^</pattern>
-<template>Yes</template>
+<category><pattern>^ ADD ^ NORA FUNDS ^</pattern>
+<template>jira_link</template>
 </category>
 <category><pattern>^ ADD ^ BACK DATED TRADES ^ CUSTOMER ^</pattern>
-<template>No</template>
+<template>No. We create synthetic data back dated trades are not possible</template>
 </category>
 <category><pattern>^ CREATE ^ DPF ACCOUNT ^</pattern>
-<template>Provide a link to create Jira with details</template>
+<template>jira_link</template>
 </category>
 <category><pattern>^ CREATE ^ FINANCIAL PLAN ^ CUSTOMER ^</pattern>
-<template>Provide search link with the details</template>
+<template>pdf_link</template>
 </category>
 <category><pattern>^ ADD ^ RISK PROFILES ^ CUSTOMER ^</pattern>
-<template>Yes</template>
+<template>Yes.we can add risk profiles to customer please raise jira in detail</template>
 </category>
 <category><pattern>^ MIFID ^ CUSTOMER ^</pattern>
-<template>Yes</template>
+<template>Yes.we can add MIFID Complaints but there is some dependency on other team please raise jira</template>
 </category>
 <category><pattern>^ ADD SHORT CODES ^ CUSTOMER ^</pattern>
-<template>yes</template>
+<template>Yes.we can add short codes but there is some dependency on other team please raise jira</template>
 </category>
 <category><pattern>^ ADD INSTRUMENTS ^</pattern>
-<template>No</template>
+<template>No. We create synthetic data adding instruments is not possible</template>
 </category>
 <category><pattern>^ ADD ^ T24 ACCOUNTS ^</pattern>
-<template>Yes</template>
+<template>Yes.we can add T24 accounts but there is some dependency on other team please raise jira</template>
 </category>
 <category><pattern>^ CREATE ^ CUSTOMER ^ IMSR ^</pattern>
-<template>Yes</template>
+<template>Yes. We can create in IMSR Environment please raise jira</template>
 </category>
 <category><pattern>^ CREATE ^ CUSTOMER ^ IMSV ^</pattern>
-<template>Yes</template>
+<template>Yes. We can create in IMSV Environment please raise jira</template>
 </category>
 <category><pattern>^ ADD ^ NEGATIVE BALANCE ^ ACCOUNT ^</pattern>
-<template>Yes</template>
+<template>Yes.we can add negative balance  to account please raise jira in detail</template>
 </category>
 <category><pattern>HELLO</pattern>
-<template>How can I help you with</template>
+<template>Hey ! How can I help you with</template>
+</category>
+<category><pattern>THANKS</pattern>
+<template>It was nice talking to you have a great day</template>
 </category>
 <category><pattern>HI</pattern>
-<template>How can I help you with</template>
+<template>Hey ! How can I help you with</template>
 </category>
 <category><pattern>HELP</pattern>
-<template>Please enter any keyword for help</template>
+<template>DlcomTDM@Nordea.com</template>
 </category>
 <category><pattern>^ REPORT ^ ERROR ^</pattern>
-<template>Dlcom**.com</template>
+<template>DlcomTDM@Nordea.com</template>
+</category>
+<category><pattern>^ LOOKING FOR DENMARK TEST DATA ^</pattern>
+<template>125489635 Private Banking Customer. 549632749 Retail Customer. 356987521 Corporate Customer. 456213897 US Customer 241356987 Minor Customer</template>
+</category>
+<category><pattern>^ LOOKING FOR SWEDEN TEST DATA ^</pattern>
+<template>195007091811 Private Banking Customer. 198502067458 Reatil Customer.197702652459 Corporate Customer.198911124568 US Customer.201002064873 Minor Customer</template>
+</category>
+<category><pattern>^ LOOKING FOR FINLAND TEST DATA ^</pattern>
+<template>524788 Private Banking customer. 468987 Retail Customer. 176984 Corporate Customer.425612 US customer.526324 Minor Customer</template>
+</category>
+<category><pattern>^ LOOKING FOR NORWAY TEST DATA ^</pattern>
+<template>196807091871 Private Banking Customer. 192502067458 Reatil Customer.196602652489 Corporate Customer.198911121468 US Customer.201002064145 Minor Customer</template>
+</category>
+<category><pattern>^ DENMARK CUSTOMER</pattern>
+<template>Production||Pre-Production||Test||Dev</template>
+</category>
+<category><pattern>^ FINLAND CUSTOMER</pattern>
+<template>Production||Pre-Production||Test||Dev</template>
+</category>
+<category><pattern>^ NORWAY CUSTOMER</pattern>
+<template>Production||Pre-Production||Test||Dev</template>
+</category>
+<category><pattern>^ SWEDEN CUSTOMER</pattern>
+<template>Production||Pre-Production||Test||Dev</template>
+</category>
+<category><pattern>^ DENMARK CUSTOMER ^ TEST ^</pattern>
+<template>125489635 Private Banking Customer \\n549632749 Retail Customer \\n356987521 Corporate Customer \\n456213897 US Customer \\n241356987 Minor Customer</template>
+</category>
+<category><pattern>^ FINLAND CUSTOMER ^ TEST ^</pattern>
+<template>524788 Private Banking customer \\n468987 Retail Customer \\n176984 Corporate Customer \\n425612 US customer \\n526324 Minor Customer</template>
+</category>
+<category><pattern>^ NORWAY CUSTOMER ^ TEST ^</pattern>
+<template>196807091871 Private Banking Customer \\n192502067458 Reatil Customer \\n196602652489 Corporate Customer \\n198911121468 US Customer \\n201002064145 Minor Customer</template>
+</category>
+<category><pattern>^ SWEDEN CUSTOMER ^ TEST ^</pattern>
+<template>195007091811 Private Banking Customer \\n198502067458 Reatil Customer \\n197702652459 Corporate Customer \\n198911124568 US Customer \\n201002064873 Minor Customer</template>
+</category>
+<category><pattern>^ DENMARK CUSTOMER ^ DEV ^</pattern>
+<template>125489635 Private Banking Customer \\n549632749 Retail Customer \\n356987521 Corporate Customer \\n456213897 US Customer \\n241356987 Minor Customer</template>
+</category>
+<category><pattern>^ FINLAND CUSTOMER ^ DEV ^</pattern>
+<template>524788 Private Banking customer \\n468987 Retail Customer \\n176984 Corporate Customer \\n425612 US customer \\n526324 Minor Customer</template>
+</category>
+<category><pattern>^ NORWAY CUSTOMER ^ DEV ^</pattern>
+<template>196807091871 Private Banking Customer \\n192502067458 Reatil Customer \\n196602652489 Corporate Customer \\n198911121468 US Customer \\n201002064145 Minor Customer</template>
+</category>
+<category><pattern>^ SWEDEN CUSTOMER ^ DEV ^</pattern>
+<template>195007091811 Private Banking Customer \\n198502067458 Reatil Customer \\n197702652459 Corporate Customer \\n198911124568 US Customer \\n201002064873 Minor Customer</template>
+</category>
+<category><pattern>^ DENMARK CUSTOMER ^ PRODUCTION ^</pattern>
+<template>We create Data only for Test Environments. Try searching Denmark customer in test environment</template>
+</category>
+<category><pattern>^ FINLAND CUSTOMER ^ PRODUCTION ^</pattern>
+<template>We create Data only for Test Environments. Try searching Finland customer in test environment</template>
+</category>
+<category><pattern>^ NORWAY CUSTOMER ^ PRODUCTION ^</pattern>
+<template>We create Data only for Test Environments. Try searching Norway customer in test environment</template>
+</category>
+<category><pattern>^ SWEDEN CUSTOMER ^ PRODUCTION ^</pattern>
+<template>We create Data only for Test Environments. Try searching Sweden customer in test environment</template>
+</category>
+<category><pattern>^ DENMARK CUSTOMER ^ PRE PRODUCTION ^</pattern>
+<template>We create Data only for Test Environments. Try searching Denmark customer in test environment</template>
+</category>
+<category><pattern>^ FINLAND CUSTOMER ^ PRE PRODUCTION ^</pattern>
+<template>We create Data only for Test Environments. Try searching Finland customer in test environment</template>
+</category>
+<category><pattern>^ NORWAY CUSTOMER ^ PRE PRODUCTION ^</pattern>
+<template>We create Data only for Test Environments. Try searching Norway customer in test environment</template>
+</category>
+<category><pattern>^ SWEDEN CUSTOMER ^ PRE PRODUCTION ^</pattern>
+<template>We create Data only for Test Environments. Try searching Sweden customer in test environment</template>
+</category>
+<category><pattern>^ HOW ^ CREATE ^ JIRA ^</pattern>
+<template>jira_link</template>
+</category>
+<category><pattern>*</pattern>
+<template>Sorry. I am still learning. To get an answer kindly raise a jira. Try searching how to create a jira</template>
 </category>
 </aiml>

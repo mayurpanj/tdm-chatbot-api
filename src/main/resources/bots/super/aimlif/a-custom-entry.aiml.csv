@@ -1,55 +1,75 @@
-0,^ CREATE DATA ^ PRODUCTION ^,*,*,No. We create Data for only Test Environments ,a-custom-entry.aiml
-0,^ CREATE DATA ^ PRE PRODUCTION ^,*,*,No. We create Data for only Test Environments ,a-custom-entry.aiml
+0,^ CREATE DATA ^ PRODUCTION ^,*,*,No. We create Data for only Test Environments,a-custom-entry.aiml
+0,^ CREATE DATA ^ PRE PRODUCTION ^,*,*,No. We create Data for only Test Environments,a-custom-entry.aiml
 0,^ CONTACT ^ PERSON FOR HELP ^,*,*,DlcomTDM@Nordea.com,a-custom-entry.aiml
 0,^ REPORT ^ ERROR ^ PORTAL ^,*,*,DlcomTDM@Nordea.com,a-custom-entry.aiml
-0,^ REPORT ^ CUSTOMER ^ NOT WORKING ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ REQUEST ^ NEW CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ GET MORE VOLUME OF DATA ^,*,*,Provide a link for search pdf with details,a-custom-entry.aiml
-0,^ ADD MONEY TO ACCOUNTS ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ HOW FAST ^ PROVIDE ^ NEW SET OF DATA ^,*,*,As per the volumes. For example to create one customer with trading takes 5 minutes ,a-custom-entry.aiml
-0,^ REPLICATE PRODUCTION DEFECT IN TEST ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ ADD EQUITIES TO EXISTING CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ ADD FUNDS TO ^ EXISTING CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ ADD ETFS TO ^ EXISTING CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ CAN YOU ADD BONDS TO ^ EXISTING CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ ADD EQUITY TRADING AGREEMENT ^ EXISTING CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ ADD FUND TRADING AGREEMEN TO THE EXISTING CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ CREATE CUSTOMER WITHOUT AGREEMENTS ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ CREATE CUSTOMER WITH KYC ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ CREATE CUSTOMER WITHOUT KYC ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ CREATE POA CUSTOMER ^,*,*,Provide a link for search pdf with details,a-custom-entry.aiml
-0,^ CREATE A JOINT ACCOUNT CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ NLP CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ MONTHLY SAVINGS CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ BUY/SELL BUTTONS ARE DISABLED ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ ADD ADDITIONAL INFORMATION ^ TO ^ CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ ADD ASK ACCOUNTS TO ^ CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ ADD MULTI CURRENCY ACCOUNTS ^ TO ^ CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ CREATE ^ ESA ACCOUNT ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ CREATE ^ ESA CUSTODY ACCOUNT ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ CREATE ^ DEPA ACCOUNT ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ CREATE ^ NORA ACCOUNT ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ CREATE ^ NORA CHILD SAVINGS ACCOUNT ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ ADD ^ NORA FUNDS  ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ CREATE ^ DEV ENVIRONMENT ^ CUSTOMER ^,*,*,"Yes. If you are looking for existing customer use search function , new customer raise jira ",a-custom-entry.aiml
-0,^ CREATE DEAD CUSTOMER  ^,*,*,"Yes. If you are looking for existing customer use search function , new customer raise jira ",a-custom-entry.aiml
+0,^ REPORT ^ CUSTOMER ^ NOT WORKING ^,*,*,jira_link,a-custom-entry.aiml
+0,^ REQUEST ^ NEW CUSTOMER ^,*,*,jira_link,a-custom-entry.aiml
+0,^ GET MORE VOLUME OF DATA ^,*,*,pdf_link,a-custom-entry.aiml
+0,^ ADD MONEY TO ACCOUNTS ^,*,*,jira_link,a-custom-entry.aiml
+0,^ HOW FAST ^ PROVIDE ^ NEW SET OF DATA ^,*,*,As per the volumes. For example to create one customer with trading takes 5 minutes,a-custom-entry.aiml
+0,^ REPLICATE PRODUCTION DEFECT IN TEST ^,*,*,jira_link,a-custom-entry.aiml
+0,^ ADD EQUITIES TO EXISTING CUSTOMER ^,*,*,jira_link,a-custom-entry.aiml
+0,^ ADD FUNDS TO ^ EXISTING CUSTOMER ^,*,*,jira_link,a-custom-entry.aiml
+0,^ ADD ETFS TO ^ EXISTING CUSTOMER ^,*,*,jira_link,a-custom-entry.aiml
+0,^ CAN YOU ADD BONDS TO ^ EXISTING CUSTOMER ^,*,*,jira_link,a-custom-entry.aiml
+0,^ ADD EQUITY TRADING AGREEMENT ^ EXISTING CUSTOMER ^,*,*,jira_link,a-custom-entry.aiml
+0,^ ADD FUND TRADING AGREEMEN TO THE EXISTING CUSTOMER ^,*,*,jira_link,a-custom-entry.aiml
+0,^ CREATE CUSTOMER WITHOUT AGREEMENTS ^,*,*,jira_link,a-custom-entry.aiml
+0,^ CREATE CUSTOMER WITH KYC ^,*,*,jira_link,a-custom-entry.aiml
+0,^ CREATE CUSTOMER WITHOUT KYC ^,*,*,jira_link,a-custom-entry.aiml
+0,^ CREATE POA CUSTOMER ^,*,*,pdf_link,a-custom-entry.aiml
+0,^ CREATE A JOINT ACCOUNT CUSTOMER ^,*,*,jira_link,a-custom-entry.aiml
+0,^ NLP CUSTOMER ^,*,*,jira_link,a-custom-entry.aiml
+0,^ MONTHLY SAVINGS CUSTOMER ^,*,*,jira_link,a-custom-entry.aiml
+0,^ BUY/SELL BUTTONS ARE DISABLED ^,*,*,jira_link,a-custom-entry.aiml
+0,^ ADD ADDITIONAL INFORMATION ^ TO ^ CUSTOMER ^,*,*,jira_link,a-custom-entry.aiml
+0,^ ADD ASK ACCOUNTS TO ^ CUSTOMER ^,*,*,jira_link,a-custom-entry.aiml
+0,^ ADD MULTI CURRENCY ACCOUNTS ^ TO ^ CUSTOMER ^,*,*,jira_link,a-custom-entry.aiml
+0,^ CREATE ^ ESA ACCOUNT ^,*,*,jira_link,a-custom-entry.aiml
+0,^ CREATE ^ ESA CUSTODY ACCOUNT ^,*,*,jira_link,a-custom-entry.aiml
+0,^ CREATE ^ DEPA ACCOUNT ^,*,*,jira_link,a-custom-entry.aiml
+0,^ CREATE ^ NORA ACCOUNT ^,*,*,jira_link,a-custom-entry.aiml
+0,^ CREATE ^ NORA CHILD SAVINGS ACCOUNT ^,*,*,jira_link,a-custom-entry.aiml
+0,^ ADD ^ NORA FUNDS ^,*,*,jira_link,a-custom-entry.aiml
 0,^ ADD ^ BACK DATED TRADES ^ CUSTOMER ^,*,*,No. We create synthetic data back dated trades are not possible,a-custom-entry.aiml
-0,^ CREATE ^ DPF ACCOUNT ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ CREATE ^ FINANCIAL PLAN ^ CUSTOMER ^,*,*,Provide search link with the details,a-custom-entry.aiml
+0,^ CREATE ^ DPF ACCOUNT ^,*,*,jira_link,a-custom-entry.aiml
+0,^ CREATE ^ FINANCIAL PLAN ^ CUSTOMER ^,*,*,pdf_link,a-custom-entry.aiml
 0,^ ADD ^ RISK PROFILES ^ CUSTOMER ^,*,*,Yes.we can add risk profiles to customer please raise jira in detail,a-custom-entry.aiml
-0,^ MIFID ^ CUSTOMER ^,*,*,Yes.we can add MIFID Complaints but there is some dependency on other team please raise jira ,a-custom-entry.aiml
-0,^ ADD SHORT CODES ^ CUSTOMER ^,*,*,Yes.we can add short codes but there is some dependency on other team please raise jira ,a-custom-entry.aiml
-0,^ ADD INSTRUMENTS ^,*,*,No. We create synthetic data adding instruments is not possible ,a-custom-entry.aiml
-0,^ ADD ^ T24 ACCOUNTS ^,*,*,Yes.we can add T24 accounts but there is some dependency on other team please raise jira ,a-custom-entry.aiml
-0,^ CREATE ^ CUSTOMER ^ IMSR ^,*,*,Yes. We can create in IMSR Environment please raise jira ,a-custom-entry.aiml
-0,^ CREATE ^ CUSTOMER ^ IMSV ^,*,*,Yes. We can create in IMSV Environment please raise jira ,a-custom-entry.aiml
+0,^ MIFID ^ CUSTOMER ^,*,*,Yes.we can add MIFID Complaints but there is some dependency on other team please raise jira,a-custom-entry.aiml
+0,^ ADD SHORT CODES ^ CUSTOMER ^,*,*,Yes.we can add short codes but there is some dependency on other team please raise jira,a-custom-entry.aiml
+0,^ ADD INSTRUMENTS ^,*,*,No. We create synthetic data adding instruments is not possible,a-custom-entry.aiml
+0,^ ADD ^ T24 ACCOUNTS ^,*,*,Yes.we can add T24 accounts but there is some dependency on other team please raise jira,a-custom-entry.aiml
+0,^ CREATE ^ CUSTOMER ^ IMSR ^,*,*,Yes. We can create in IMSR Environment please raise jira,a-custom-entry.aiml
+0,^ CREATE ^ CUSTOMER ^ IMSV ^,*,*,Yes. We can create in IMSV Environment please raise jira,a-custom-entry.aiml
 0,^ ADD ^ NEGATIVE BALANCE ^ ACCOUNT ^,*,*,Yes.we can add negative balance  to account please raise jira in detail,a-custom-entry.aiml
 0,HELLO,*,*,Hey ! How can I help you with,a-custom-entry.aiml
 0,THANKS,*,*,It was nice talking to you have a great day,a-custom-entry.aiml
 0,HI,*,*,Hey ! How can I help you with,a-custom-entry.aiml
 0,HELP,*,*,DlcomTDM@Nordea.com,a-custom-entry.aiml
 0,^ REPORT ^ ERROR ^,*,*,DlcomTDM@Nordea.com,a-custom-entry.aiml
-0,^ LOOKING FOR DENMARK TEST DATA ^,*,*,125489635 Private Banking Customer. 549632749 Retail Customer. 356987521 Corporate Customer. 456213897 US Customer 241356987 Minor Customer ,a-custom-entry.aiml
-0,^ LOOKING FOR SWEDEN TEST DATA ^,*,*,195007091811 Private Banking Customer. 198502067458 Reatil Customer.197702652459 Corporate Customer.198911124568 US Customer.201002064873 Minor Customer ,a-custom-entry.aiml
-0,^ LOOKING FOR FINLAND TEST DATA ^,*,*,524788 Private Banking customer. 468987 Retail Customer. 176984 Corporate Customer.425612 US customer.526324 Minor Customer ,a-custom-entry.aiml
-0,^ LOOKING FOR NORWAY TEST DATA ^,*,*,196807091871 Private Banking Customer. 192502067458 Reatil Customer.196602652489 Corporate Customer.198911121468 US Customer.201002064145 Minor Customer ,a-custom-entry.aiml
+0,^ LOOKING FOR DENMARK TEST DATA ^,*,*,125489635 Private Banking Customer. 549632749 Retail Customer. 356987521 Corporate Customer. 456213897 US Customer 241356987 Minor Customer,a-custom-entry.aiml
+0,^ LOOKING FOR SWEDEN TEST DATA ^,*,*,195007091811 Private Banking Customer. 198502067458 Reatil Customer.197702652459 Corporate Customer.198911124568 US Customer.201002064873 Minor Customer,a-custom-entry.aiml
+0,^ LOOKING FOR FINLAND TEST DATA ^,*,*,524788 Private Banking customer. 468987 Retail Customer. 176984 Corporate Customer.425612 US customer.526324 Minor Customer,a-custom-entry.aiml
+0,^ LOOKING FOR NORWAY TEST DATA ^,*,*,196807091871 Private Banking Customer. 192502067458 Reatil Customer.196602652489 Corporate Customer.198911121468 US Customer.201002064145 Minor Customer,a-custom-entry.aiml
+0,^ DENMARK CUSTOMER,*,*,Production||Pre-Production||Test||Dev,a-custom-entry.aiml
+0,^ FINLAND CUSTOMER,*,*,Production||Pre-Production||Test||Dev,a-custom-entry.aiml
+0,^ NORWAY CUSTOMER,*,*,Production||Pre-Production||Test||Dev,a-custom-entry.aiml
+0,^ SWEDEN CUSTOMER,*,*,Production||Pre-Production||Test||Dev,a-custom-entry.aiml
+0,^ DENMARK CUSTOMER ^ TEST ^,*,*,125489635 Private Banking Customer \\n549632749 Retail Customer \\n356987521 Corporate Customer \\n456213897 US Customer \\n241356987 Minor Customer,a-custom-entry.aiml
+0,^ FINLAND CUSTOMER ^ TEST ^,*,*,524788 Private Banking customer \\n468987 Retail Customer \\n176984 Corporate Customer \\n425612 US customer \\n526324 Minor Customer,a-custom-entry.aiml
+0,^ NORWAY CUSTOMER ^ TEST ^,*,*,196807091871 Private Banking Customer \\n192502067458 Reatil Customer \\n196602652489 Corporate Customer \\n198911121468 US Customer \\n201002064145 Minor Customer,a-custom-entry.aiml
+0,^ SWEDEN CUSTOMER ^ TEST ^,*,*,195007091811 Private Banking Customer \\n198502067458 Reatil Customer \\n197702652459 Corporate Customer \\n198911124568 US Customer \\n201002064873 Minor Customer,a-custom-entry.aiml
+0,^ DENMARK CUSTOMER ^ DEV ^,*,*,125489635 Private Banking Customer \\n549632749 Retail Customer \\n356987521 Corporate Customer \\n456213897 US Customer \\n241356987 Minor Customer,a-custom-entry.aiml
+0,^ FINLAND CUSTOMER ^ DEV ^,*,*,524788 Private Banking customer \\n468987 Retail Customer \\n176984 Corporate Customer \\n425612 US customer \\n526324 Minor Customer,a-custom-entry.aiml
+0,^ NORWAY CUSTOMER ^ DEV ^,*,*,196807091871 Private Banking Customer \\n192502067458 Reatil Customer \\n196602652489 Corporate Customer \\n198911121468 US Customer \\n201002064145 Minor Customer,a-custom-entry.aiml
+0,^ SWEDEN CUSTOMER ^ DEV ^,*,*,195007091811 Private Banking Customer \\n198502067458 Reatil Customer \\n197702652459 Corporate Customer \\n198911124568 US Customer \\n201002064873 Minor Customer,a-custom-entry.aiml
+0,^ DENMARK CUSTOMER ^ PRODUCTION ^,*,*,We create Data only for Test Environments. Try searching Denmark customer in test environment,a-custom-entry.aiml
+0,^ FINLAND CUSTOMER ^ PRODUCTION ^,*,*,We create Data only for Test Environments. Try searching Finland customer in test environment,a-custom-entry.aiml
+0,^ NORWAY CUSTOMER ^ PRODUCTION ^,*,*,We create Data only for Test Environments. Try searching Norway customer in test environment,a-custom-entry.aiml
+0,^ SWEDEN CUSTOMER ^ PRODUCTION ^,*,*,We create Data only for Test Environments. Try searching Sweden customer in test environment,a-custom-entry.aiml
+0,^ DENMARK CUSTOMER ^ PRE PRODUCTION ^,*,*,We create Data only for Test Environments. Try searching Denmark customer in test environment,a-custom-entry.aiml
+0,^ FINLAND CUSTOMER ^ PRE PRODUCTION ^,*,*,We create Data only for Test Environments. Try searching Finland customer in test environment,a-custom-entry.aiml
+0,^ NORWAY CUSTOMER ^ PRE PRODUCTION ^,*,*,We create Data only for Test Environments. Try searching Norway customer in test environment,a-custom-entry.aiml
+0,^ SWEDEN CUSTOMER ^ PRE PRODUCTION ^,*,*,We create Data only for Test Environments. Try searching Sweden customer in test environment,a-custom-entry.aiml
+0,^ HOW ^ CREATE ^ JIRA ^,*,*,jira_link,a-custom-entry.aiml
+0,*,*,*,Sorry. I am still learning. To get an answer kindly raise a jira. Try searching how to create a jira,a-custom-entry.aiml
