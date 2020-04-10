@@ -1,12 +1,12 @@
-0,^ CREATE DATA ^ PRODUCTION ^,*,*,No,a-custom-entry.aiml
-0,^ CREATE DATA ^ PRE PRODUCTION ^,*,*,No,a-custom-entry.aiml
-0,^ CONTACT ^ PERSON FOR HELP ^,*,*,Dlcom**.com,a-custom-entry.aiml
-0,^ REPORT ^ ERROR ^ PORTAL ^,*,*,Dlcom**.com,a-custom-entry.aiml
+0,^ CREATE DATA ^ PRODUCTION ^,*,*,No. We create Data for only Test Environments ,a-custom-entry.aiml
+0,^ CREATE DATA ^ PRE PRODUCTION ^,*,*,No. We create Data for only Test Environments ,a-custom-entry.aiml
+0,^ CONTACT ^ PERSON FOR HELP ^,*,*,DlcomTDM@Nordea.com,a-custom-entry.aiml
+0,^ REPORT ^ ERROR ^ PORTAL ^,*,*,DlcomTDM@Nordea.com,a-custom-entry.aiml
 0,^ REPORT ^ CUSTOMER ^ NOT WORKING ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
 0,^ REQUEST ^ NEW CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
 0,^ GET MORE VOLUME OF DATA ^,*,*,Provide a link for search pdf with details,a-custom-entry.aiml
 0,^ ADD MONEY TO ACCOUNTS ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ HOW FAST ^ PROVIDE ^ NEW SET OF DATA ^,*,*,As per the volumes. For example one customer with trading requires 5 minutes,a-custom-entry.aiml
+0,^ HOW FAST ^ PROVIDE ^ NEW SET OF DATA ^,*,*,As per the volumes. For example to create one customer with trading takes 5 minutes ,a-custom-entry.aiml
 0,^ REPLICATE PRODUCTION DEFECT IN TEST ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
 0,^ ADD EQUITIES TO EXISTING CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
 0,^ ADD FUNDS TO ^ EXISTING CUSTOMER ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
@@ -31,20 +31,25 @@
 0,^ CREATE ^ NORA ACCOUNT ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
 0,^ CREATE ^ NORA CHILD SAVINGS ACCOUNT ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
 0,^ ADD ^ NORA FUNDS  ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
-0,^ CREATE ^ DEV ENVIRONMENT ^ CUSTOMER ^,*,*,Yes,a-custom-entry.aiml
-0,^ CREATE DEAD CUSTOMER  ^,*,*,Yes,a-custom-entry.aiml
-0,^ ADD ^ BACK DATED TRADES ^ CUSTOMER ^,*,*,No,a-custom-entry.aiml
+0,^ CREATE ^ DEV ENVIRONMENT ^ CUSTOMER ^,*,*,"Yes. If you are looking for existing customer use search function , new customer raise jira ",a-custom-entry.aiml
+0,^ CREATE DEAD CUSTOMER  ^,*,*,"Yes. If you are looking for existing customer use search function , new customer raise jira ",a-custom-entry.aiml
+0,^ ADD ^ BACK DATED TRADES ^ CUSTOMER ^,*,*,No. We create synthetic data back dated trades are not possible,a-custom-entry.aiml
 0,^ CREATE ^ DPF ACCOUNT ^,*,*,Provide a link to create Jira with details,a-custom-entry.aiml
 0,^ CREATE ^ FINANCIAL PLAN ^ CUSTOMER ^,*,*,Provide search link with the details,a-custom-entry.aiml
-0,^ ADD ^ RISK PROFILES ^ CUSTOMER ^,*,*,Yes,a-custom-entry.aiml
-0,^ MIFID ^ CUSTOMER ^,*,*,Yes,a-custom-entry.aiml
-0,^ ADD SHORT CODES ^ CUSTOMER ^,*,*,yes,a-custom-entry.aiml
-0,^ ADD INSTRUMENTS ^,*,*,No,a-custom-entry.aiml
-0,^ ADD ^ T24 ACCOUNTS ^,*,*,Yes,a-custom-entry.aiml
-0,^ CREATE ^ CUSTOMER ^ IMSR ^,*,*,Yes,a-custom-entry.aiml
-0,^ CREATE ^ CUSTOMER ^ IMSV ^,*,*,Yes,a-custom-entry.aiml
-0,^ ADD ^ NEGATIVE BALANCE ^ ACCOUNT ^,*,*,Yes,a-custom-entry.aiml
-0,HELLO,*,*,How can I help you with,a-custom-entry.aiml
-0,HI,*,*,How can I help you with,a-custom-entry.aiml
-0,HELP,*,*,Please enter any keyword for help,a-custom-entry.aiml
-0,^ REPORT ^ ERROR ^,*,*,Dlcom**.com,a-custom-entry.aiml
+0,^ ADD ^ RISK PROFILES ^ CUSTOMER ^,*,*,Yes.we can add risk profiles to customer please raise jira in detail,a-custom-entry.aiml
+0,^ MIFID ^ CUSTOMER ^,*,*,Yes.we can add MIFID Complaints but there is some dependency on other team please raise jira ,a-custom-entry.aiml
+0,^ ADD SHORT CODES ^ CUSTOMER ^,*,*,Yes.we can add short codes but there is some dependency on other team please raise jira ,a-custom-entry.aiml
+0,^ ADD INSTRUMENTS ^,*,*,No. We create synthetic data adding instruments is not possible ,a-custom-entry.aiml
+0,^ ADD ^ T24 ACCOUNTS ^,*,*,Yes.we can add T24 accounts but there is some dependency on other team please raise jira ,a-custom-entry.aiml
+0,^ CREATE ^ CUSTOMER ^ IMSR ^,*,*,Yes. We can create in IMSR Environment please raise jira ,a-custom-entry.aiml
+0,^ CREATE ^ CUSTOMER ^ IMSV ^,*,*,Yes. We can create in IMSV Environment please raise jira ,a-custom-entry.aiml
+0,^ ADD ^ NEGATIVE BALANCE ^ ACCOUNT ^,*,*,Yes.we can add negative balance  to account please raise jira in detail,a-custom-entry.aiml
+0,HELLO,*,*,Hey ! How can I help you with,a-custom-entry.aiml
+0,THANKS,*,*,It was nice talking to you have a great day,a-custom-entry.aiml
+0,HI,*,*,Hey ! How can I help you with,a-custom-entry.aiml
+0,HELP,*,*,DlcomTDM@Nordea.com,a-custom-entry.aiml
+0,^ REPORT ^ ERROR ^,*,*,DlcomTDM@Nordea.com,a-custom-entry.aiml
+0,^ LOOKING FOR DENMARK TEST DATA ^,*,*,125489635 Private Banking Customer. 549632749 Retail Customer. 356987521 Corporate Customer. 456213897 US Customer 241356987 Minor Customer ,a-custom-entry.aiml
+0,^ LOOKING FOR SWEDEN TEST DATA ^,*,*,195007091811 Private Banking Customer. 198502067458 Reatil Customer.197702652459 Corporate Customer.198911124568 US Customer.201002064873 Minor Customer ,a-custom-entry.aiml
+0,^ LOOKING FOR FINLAND TEST DATA ^,*,*,524788 Private Banking customer. 468987 Retail Customer. 176984 Corporate Customer.425612 US customer.526324 Minor Customer ,a-custom-entry.aiml
+0,^ LOOKING FOR NORWAY TEST DATA ^,*,*,196807091871 Private Banking Customer. 192502067458 Reatil Customer.196602652489 Corporate Customer.198911121468 US Customer.201002064145 Minor Customer ,a-custom-entry.aiml
