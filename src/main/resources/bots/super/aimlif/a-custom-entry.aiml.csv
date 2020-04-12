@@ -72,4 +72,6 @@
 0,^ NORWAY CUSTOMER ^ PRE PRODUCTION ^,*,*,We create Data only for Test Environments. Try searching Norway customer in test environment,a-custom-entry.aiml
 0,^ SWEDEN CUSTOMER ^ PRE PRODUCTION ^,*,*,We create Data only for Test Environments. Try searching Sweden customer in test environment,a-custom-entry.aiml
 0,^ HOW ^ CREATE ^ JIRA ^,*,*,jira_link,a-custom-entry.aiml
+0,^ ACCOUNT ^ SERVICES ^,*,*,ESA||DEPA||NORA||T24||NORA CHILD SAVINGS,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^,*,*,WITH KYC||WITHOUT KYC||POA||NLP,a-custom-entry.aiml
 0,*,*,*,Sorry. I am still learning. To get an answer kindly raise a jira. Try searching how to create a jira,a-custom-entry.aiml

@@ -223,6 +223,12 @@
 <category><pattern>^ HOW ^ CREATE ^ JIRA ^</pattern>
 <template>jira_link</template>
 </category>
+<category><pattern>^ ACCOUNT ^ SERVICES ^</pattern>
+<template>ESA||DEPA||NORA||T24||NORA CHILD SAVINGS</template>
+</category>
+<category><pattern>^ CUSTOMER ^ SERVICES ^</pattern>
+<template>WITH KYC||WITHOUT KYC||POA||NLP</template>
+</category>
 <category><pattern>*</pattern>
 <template>Sorry. I am still learning. To get an answer kindly raise a jira. Try searching how to create a jira</template>
 </category>
