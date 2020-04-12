@@ -223,6 +223,42 @@
 <category><pattern>^ HOW ^ CREATE ^ JIRA ^</pattern>
 <template>jira_link</template>
 </category>
+<category><pattern>^ ACCOUNT ^ SERVICES</pattern>
+<template>ESA||DEPA||NORA||T24||NORA CHILD SAVINGS</template>
+</category>
+<category><pattern>^ ACCOUNT ^ SERVICES ^ ESA ^</pattern>
+<template>jira_link</template>
+</category>
+<category><pattern>^ ACCOUNT ^ SERVICES ^ DEPA ^</pattern>
+<template>jira_link</template>
+</category>
+<category><pattern>^ ACCOUNT ^ SERVICES ^ NORA ^</pattern>
+<template>jira_link</template>
+</category>
+<category><pattern>^ ACCOUNT ^ SERVICES ^ T24 ^</pattern>
+<template>jira_link</template>
+</category>
+<category><pattern>^ ACCOUNT ^ SERVICES ^ NORA CHILD SAVINGS ^</pattern>
+<template>jira_link</template>
+</category>
+<category><pattern>^ CUSTOMER ^ SERVICES</pattern>
+<template>WITH KYC||WITHOUT KYC||POA||NLP</template>
+</category>
+<category><pattern>^ CUSTOMER ^ SERVICES ^ WITH KYC ^</pattern>
+<template>jira_link</template>
+</category>
+<category><pattern>^ CUSTOMER ^ SERVICES ^ WITHOUT KYC ^</pattern>
+<template>jira_link</template>
+</category>
+<category><pattern>^ CUSTOMER ^ SERVICES ^ POA ^</pattern>
+<template>pdf_link</template>
+</category>
+<category><pattern>^ CUSTOMER ^ SERVICES ^ NLP ^</pattern>
+<template>jira_link</template>
+</category>
+<category><pattern>DEFAULT DATA</pattern>
+<template>Which country data are you looking for?</template>
+</category>
 <category><pattern>*</pattern>
 <template>Sorry. I am still learning. To get an answer kindly raise a jira. Try searching how to create a jira</template>
 </category>
